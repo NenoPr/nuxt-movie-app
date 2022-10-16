@@ -1,0 +1,129 @@
+<!doctype html>
+<html data-n-head-ssr lang="en" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  <head>
+    <title>Movie App - Latest Streaming Movie Info</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" name="format-detection" content="telephone=no"><meta data-n-head="ssr" data-hid="description" name="description" content="Get all the latest streaming movies in theaters & online"><meta data-n-head="ssr" data-hid="keywords" name="keywords" content="Movies, stream, streaming"><base href="/nuxt-movie-app/"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="preload" href="/nuxt-movie-app/_nuxt/17d4ed7.js" as="script"><link rel="preload" href="/nuxt-movie-app/_nuxt/e80b6e2.js" as="script"><link rel="preload" href="/nuxt-movie-app/_nuxt/8d27533.js" as="script"><link rel="preload" href="/nuxt-movie-app/_nuxt/e4f96c3.js" as="script"><link rel="preload" href="/nuxt-movie-app/_nuxt/f564a2f.js" as="script"><style data-vue-ssr-id="2df02992:0 2df02992:1 1a73ea6b:0 54f6998b:0 5ed15e8c:0">@import url(https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600&display=swap);*{margin:0;padding:0;box-sizing:border-box;font-family:Karla,sans-serif;scroll-behavior:smooth}.page-enter-active,.page-leave-active{transition:opacity .5s}.page-enter,.page-leave-to{opacity:0}.app{background-color:#211f1f;min-height:100vh}.button{display:inline-block;text-decoration:none;color:inherit;padding:8px 16px;background-color:#c92502;border:none;color:#fff;border-radius:4px;cursor:pointer;transition:all .3s ease}.button:hover{background-color:#891b02}.button-light{background-color:transparent;border:1px solid #c92502}.button-light:hover{border-color:transparent}.container{max-width:80vw;margin:0 auto}.loading{height:100vh;width:100%;display:flex;justify-content:center;align-items:center}@keyframes circle-loading{to{transform:rotate(1turn)}}.loading span{display:block;width:70px;height:70px;border-radius:50%;border:2px solid transparent;border-top-color:#fff;animation:circle-loading 1.2s ease infinite}.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}.search[data-v-bf294ab6]{display:flex;padding:32px 16px}.search input[data-v-bf294ab6]{max-width:350px;width:100%;font-size:14px;border:none;border-radius:10px;padding:12px 6px 12px 10px;margin-right:10px}.search input[data-v-bf294ab6]:focus{outline:0}.movies[data-v-bf294ab6]{padding:32px 16px}.movies .movies-grid[data-v-bf294ab6]{display:grid;grid-column-gap:32px;-moz-column-gap:32px;column-gap:32px;grid-row-gap:64px;row-gap:64px;grid-template-columns:1fr}@media(min-width:500px){.movies .movies-grid[data-v-bf294ab6]{grid-template-columns:repeat(2,1fr)}}@media(min-width:750px){.movies .movies-grid[data-v-bf294ab6]{grid-template-columns:repeat(2,1fr)}}@media(min-width:1100px){.movies .movies-grid[data-v-bf294ab6]{grid-template-columns:repeat(4,1fr)}}@media(min-width:2000px){.movies .movies-grid[data-v-bf294ab6]{grid-template-columns:repeat(6,1fr)}}.movies .movies-grid .movie[data-v-bf294ab6]{position:relative;display:flex;flex-direction:column}.movies .movies-grid .movie .movie-img[data-v-bf294ab6]{position:relative;overflow:hidden}.movies .movies-grid .movie .movie-img:hover .overview[data-v-bf294ab6]{transform:translateY(0)}.movies .movies-grid .movie .movie-img img[data-v-bf294ab6]{display:block;width:100%;height:100%}.movies .movies-grid .movie .movie-img .review[data-v-bf294ab6]{position:absolute;top:0;left:0;display:flex;justify-content:center;align-items:center;width:40px;height:40px;background-color:#c92502;color:#fff;border-radius:0 0 16px 0;box-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06)}.movies .movies-grid .movie .movie-img .overview[data-v-bf294ab6]{line-height:1.5;position:absolute;bottom:0;background-color:rgba(201,38,2,.9);padding:12px;color:#fff;transform:translateY(100%);transition:all .3s ease-in-out}.movies .movies-grid .movie .info[data-v-bf294ab6]{margin-top:auto}.movies .movies-grid .movie .info .title[data-v-bf294ab6]{margin-top:8px;color:#fff;font-size:20px}.movies .movies-grid .movie .info .release[data-v-bf294ab6]{margin-top:8px;color:#c9c9c9}.movies .movies-grid .movie .info .button[data-v-bf294ab6]{margin-top:8px}.hero[data-v-391cbb36]{height:400px;position:relative}@media(min-width:750px){.hero[data-v-391cbb36]{height:500px}}.hero[data-v-391cbb36]:after{content:"";position:absolute;top:0;left:0;background-color:rgba(0,0,0,.6)}.hero img[data-v-391cbb36],.hero[data-v-391cbb36]:after{height:100%;width:100%}.hero img[data-v-391cbb36]{-o-object-fit:cover;object-fit:cover}.hero .text-container[data-v-391cbb36]{z-index:99;position:absolute;top:0;margin:0;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center}.hero .text-container .text[data-v-391cbb36]{padding:0 16px;width:100%;max-width:1400px;margin:0 auto}.hero .text-container .mini-heading[data-v-391cbb36]{font-weight:600;font-size:18px;text-transform:uppercase;color:#c92502;margin-bottom:8px}@media(min-width:750px){.hero .text-container .mini-heading[data-v-391cbb36]{font-size:22px}}.hero .text-container h1[data-v-391cbb36]{color:#fff;font-size:64px;font-weight:200;margin-bottom:8px}@media(min-width:750px){.hero .text-container h1[data-v-391cbb36]{font-size:84px}}.hero .text-container h1 span[data-v-391cbb36]{font-weight:500}.hero .text-container .button[data-v-391cbb36]{font-size:20px;align-self:flex-start}</style><link rel="preload" href="/nuxt-movie-app/_nuxt/static/1665928784/state.js" as="script"><link rel="preload" href="/nuxt-movie-app/_nuxt/static/1665928784/payload.js" as="script"><link rel="preload" href="/nuxt-movie-app/_nuxt/static/1665928784/manifest.js" as="script">
+  </head>
+  <body>
+    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div class="app"><div data-fetch-key="data-v-bf294ab6:0" class="home" data-v-bf294ab6><div class="hero" data-v-391cbb36 data-v-bf294ab6><img src="/nuxt-movie-app/_nuxt/img/movieHero.cf8f334.jpg" alt="movieHero" data-v-391cbb36> <div class="text-container" data-v-391cbb36><div class="text" data-v-391cbb36><span class="mini-heading" data-v-391cbb36>Now Streaming</span> <h1 data-v-391cbb36><span data-v-391cbb36>Now</span>Streaming</h1> <a href="#movie-grid" class="button" data-v-391cbb36>View Movies</a></div></div></div> <div class="container search" data-v-bf294ab6><input placeholder="Search..." data-v-bf294ab6> <button class="button" style="display:none" data-v-bf294ab6>Clear Search</button></div> <!----> <div class="container movies" data-v-bf294ab6><!----> <div id="movie-grid" class="movies-grid" data-v-bf294ab6><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//pHkKbIRoCe7zIFvqan9LFSaQAde.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>6.9</p> <p class="overview" data-v-bf294ab6>After escaping from an Estonian psychiatric facility, Leena Klammer travels to America by impersonating Esther, the missing daughter of a wealthy family. But when her mask starts to slip, she is put against a mother who will protect her family from the murderous “child” at any cost.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            Orphan: First Kill
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            July 27, 2022
+          </p> <a href="/nuxt-movie-app/movies/760161" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//spCAxD99U1A6jsiePFoqdEcY0dG.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>7.4</p> <p class="overview" data-v-bf294ab6>For best friends Becky and Hunter, life is all about conquering fears and pushing limits. But after they climb 2,000 feet to the top of a remote, abandoned radio tower, they find themselves stranded with no way down. Now Becky and Hunter’s expert climbing skills will be put to the ultimate test as they desperately fight to survive the elements, a lack of supplies, and vertigo-inducing heights</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            Fall
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            August 11, 2022
+          </p> <a href="/nuxt-movie-app/movies/985939" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//fenNPxVF5ERy0CSyVruuEg959Hg.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>6.6</p> <p class="overview" data-v-bf294ab6>Hours after the tragic death of their youngest brother in unexplained circumstances, three siblings have their lives thrown into chaos.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            Athena
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            September 9, 2022
+          </p> <a href="/nuxt-movie-app/movies/852046" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//bSqpOGzaKBdGkBLmcm1JJIVryYy.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>6.9</p> <p class="overview" data-v-bf294ab6>Reclusive and controversial author Bruce Cogburn is drawn out of hiding by an obsessive fan, forcing the novelist to confront a past that he thought he could escape, and to account for events set in motion by his bestseller decades earlier. Cogburn's search for who is behind the manipulation and mental torment he encounters leads to an emotional roller-coaster ride full of fear and danger, where things are not always as clear as they seem to be, and where past deeds can have dire consequences.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            The Infernal Machine
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            September 23, 2022
+          </p> <a href="/nuxt-movie-app/movies/916605" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//asRkNwbMuLheJ2nnnbRCIr2PdnI.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>7</p> <p class="overview" data-v-bf294ab6>A recently widowed man and his two teenage daughters travel to a game reserve in South Africa. However, their journey of healing soon turns into a fight for survival when a bloodthirsty lion starts to stalk them.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            Beast
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            August 11, 2022
+          </p> <a href="/nuxt-movie-app/movies/760741" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//6b7swg6DLqXCO3XUsMnv6RwDMW2.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>7</p> <p class="overview" data-v-bf294ab6>As a shocking truth about a couple's families emerges, the two lovers discover they are not so different from each other. Tessa is no longer the sweet, simple, good girl she was when she met Hardin — any more than he is the cruel, moody boy she fell so hard for.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            After Ever Happy
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            August 24, 2022
+          </p> <a href="/nuxt-movie-app/movies/744276" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//vccE9bBa9mgghFpkWzU1fQqmOKB.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>6.7</p> <p class="overview" data-v-bf294ab6>A hard-on-his-luck hound finds himself in a town full of cats in need of a hero to defend them from a ruthless villain's wicked plot to wipe their village off the map. With help from a reluctant mentor, our underdog must assume the role of town samurai and team up with the villagers to save the day.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            Paws of Fury: The Legend 
+            <span data-v-bf294ab6>...</span></p> <p class="release" data-v-bf294ab6>
+            Released:
+            July 14, 2022
+          </p> <a href="/nuxt-movie-app/movies/366672" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>6.8</p> <p class="overview" data-v-bf294ab6>After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts experiencing frightening occurrences that she can't explain. As an overwhelming terror begins taking over her life, Rose must confront her troubling past in order to survive and escape her horrifying new reality.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            Smile
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            September 23, 2022
+          </p> <a href="/nuxt-movie-app/movies/882598" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//r7XifzvtezNt31ypvsmb6Oqxw49.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>7.5</p> <p class="overview" data-v-bf294ab6>When Superman and the rest of the Justice League are kidnapped, Krypto the Super-Dog must convince a rag-tag shelter pack - Ace the hound, PB the potbellied pig, Merton the turtle and Chip the squirrel - to master their own newfound powers and help him rescue the superheroes.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            DC League of Super-Pets
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            July 27, 2022
+          </p> <a href="/nuxt-movie-app/movies/539681" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>8</p> <p class="overview" data-v-bf294ab6>The Red Ribbon Army, an evil organization that was once destroyed by Goku in the past, has been reformed by a group of people who have created new and mightier Androids, Gamma 1 and Gamma 2, and seek vengeance against Goku and his family.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            Dragon Ball Super: Super 
+            <span data-v-bf294ab6>...</span></p> <p class="release" data-v-bf294ab6>
+            Released:
+            June 11, 2022
+          </p> <a href="/nuxt-movie-app/movies/610150" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//pFlaoHTZeyNkG83vxsAJiGzfSsa.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>9.2</p> <p class="overview" data-v-bf294ab6>Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            Black Adam
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            October 19, 2022
+          </p> <a href="/nuxt-movie-app/movies/436270" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//62HCnUTziyWcpDaBO2i1DX17ljH.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>8.4</p> <p class="overview" data-v-bf294ab6>After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            Top Gun: Maverick
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            May 24, 2022
+          </p> <a href="/nuxt-movie-app/movies/361743" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//xHLwNxk7Kgpatru7advnbnBGtgf.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>7</p> <p class="overview" data-v-bf294ab6>Four years after the events of Halloween in 2018, Laurie has decided to liberate herself from fear and rage and embrace life. But when a young man is accused of killing a boy he was babysitting, it ignites a cascade of violence and terror that will force Laurie to finally confront the evil she can’t control, once and for all.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            Halloween Ends
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            October 12, 2022
+          </p> <a href="/nuxt-movie-app/movies/616820" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//1RmugOkBFU5eXu1dbr1zdxChLfQ.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>6.3</p> <p class="overview" data-v-bf294ab6>A tenacious party girl fights to survive after three thieves commandeer her luxury yacht. Unable to escape and trapped on the yacht at high seas, the prey becomes the hunter as she turns the tables on the intruders and takes matters into her own hands.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            Stowaway
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            August 31, 2022
+          </p> <a href="/nuxt-movie-app/movies/999205" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//ggf37TpcKaxwguhvtNn6MQpyqBn.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>7.8</p> <p class="overview" data-v-bf294ab6>Chickie wants to support his friends fighting in Vietnam, so he does something wild—personally bring them American beer. What starts as a well-meaning journey quickly changes Chickie’s life and perspective. Based on a true story.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            The Greatest Beer Run Eve
+            <span data-v-bf294ab6>...</span></p> <p class="release" data-v-bf294ab6>
+            Released:
+            September 30, 2022
+          </p> <a href="/nuxt-movie-app/movies/597922" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//lr11mCT85T1JanlgjMuhs9nMht4.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>7.9</p> <p class="overview" data-v-bf294ab6>Finney Blake, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer’s previous victims. And they are dead set on making sure that what happened to them doesn’t happen to Finney.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            The Black Phone
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            June 22, 2022
+          </p> <a href="/nuxt-movie-app/movies/756999" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//uJYYizSuA9Y3DCs0qS4qWvHfZg4.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>8</p> <p class="overview" data-v-bf294ab6>Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            Spider-Man: No Way Home
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            December 15, 2021
+          </p> <a href="/nuxt-movie-app/movies/634649" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//lG56H40Y1BuHSPoWtEgDJsSgDBZ.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>6.5</p> <p class="overview" data-v-bf294ab6>An ex-marine enforcer must battle his conscience and code of honor when he is forced to do things for the mob.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            White Elephant
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            June 3, 2022
+          </p> <a href="/nuxt-movie-app/movies/843633" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>7.5</p> <p class="overview" data-v-bf294ab6>In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            Avatar
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            December 15, 2009
+          </p> <a href="/nuxt-movie-app/movies/19995" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div><div class="movie" data-v-bf294ab6><div class="movie-img" data-v-bf294ab6><img src="https://image.tmdb.org/t/p/w500//aGBuiirBIQ7o64FmJxO53eYDuro.jpg" alt data-v-bf294ab6> <p class="review" data-v-bf294ab6>5.8</p> <p class="overview" data-v-bf294ab6>Forced to travel with her boyfriend to a horror festival, Laine begins to experience disturbing visions associated with the urban legend of The Creeper. As the festival arrives and the blood-soaked entertainment builds to a frenzy, she becomes the center of it while something unearthly has been summoned.</p></div> <div class="info" data-v-bf294ab6><p class="title" data-v-bf294ab6>
+            Jeepers Creepers: Reborn
+            <!----></p> <p class="release" data-v-bf294ab6>
+            Released:
+            September 15, 2022
+          </p> <a href="/nuxt-movie-app/movies/717728" class="button button-light" data-v-bf294ab6>Get More Info
+          </a></div></div></div></div></div></div></div></div><script defer src="/nuxt-movie-app/_nuxt/static/1665928784/state.js"></script><script src="/nuxt-movie-app/_nuxt/17d4ed7.js" defer></script><script src="/nuxt-movie-app/_nuxt/f564a2f.js" defer></script><script src="/nuxt-movie-app/_nuxt/e80b6e2.js" defer></script><script src="/nuxt-movie-app/_nuxt/8d27533.js" defer></script><script src="/nuxt-movie-app/_nuxt/e4f96c3.js" defer></script>
+  </body>
+</html>
